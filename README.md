@@ -28,10 +28,20 @@ Ce que chaque système impose de dire à part : la sauvegarde (iCloud d'un côt�
 sauvegarde d'Android de l'autre) et la finesse de la position demandée
 (approximative seulement sur Android).
 
-## À retirer le jour de la publication sur Google Play
+## La mention « bientôt disponible » est retirée — à pousser le jour J
 
-`index.html` porte, en français et en anglais, une mention temporaire — « La
-version Android est bientôt disponible » — signalée dans le fichier par un
-commentaire `MENTION TEMPORAIRE`. Les deux paragraphes sont à supprimer dès
-que l'application est en ligne sur le Play Store ; le reste des deux pages est
-écrit pour valoir avant comme après.
+Les deux paragraphes « La version Android est bientôt disponible » / « The
+Android version is coming soon » ont été **retirés d'`index.html` le 16 août
+2026**, et ce retrait est commité. Il n'est **volontairement pas poussé** : la
+page en ligne doit garder la mention tant que l'application n'est pas
+téléchargeable sur Google Play, sans quoi elle annoncerait « sur iPhone et sur
+Android » une app que personne ne trouverait.
+
+**Le jour où l'app est en ligne sur Play**, une seule commande met le site à
+jour :
+
+```bash
+git -C tadhakkar-site push
+```
+
+Le reste des deux pages est écrit pour valoir avant comme après.
