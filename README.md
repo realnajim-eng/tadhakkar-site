@@ -7,7 +7,7 @@ Play (Android).
 
 | Fichier | Rôle | Exigence de la boutique |
 |---|---|---|
-| `index.html` | Aide, questions fréquentes, contact | **Support URL** de la fiche App Store |
+| `index.html` | Aide, questions fréquentes, contact | **Support URL** de la fiche App Store ; site facultatif de la fiche Play |
 | `confidentialite.html` | Politique de confidentialité (FR + EN) | **Privacy Policy URL** — obligatoire chez Apple **et** chez Google Play |
 
 Ce dépôt est public **uniquement** parce que les boutiques exigent des URL
