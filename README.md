@@ -27,3 +27,11 @@ contredire les autres. Après toute modification, corriger les quatre et mettre
 Ce que chaque système impose de dire à part : la sauvegarde (iCloud d'un côté,
 sauvegarde d'Android de l'autre) et la finesse de la position demandée
 (approximative seulement sur Android).
+
+## À retirer le jour de la publication sur Google Play
+
+`index.html` porte, en français et en anglais, une mention temporaire — « La
+version Android est bientôt disponible » — signalée dans le fichier par un
+commentaire `MENTION TEMPORAIRE`. Les deux paragraphes sont à supprimer dès
+que l'application est en ligne sur le Play Store ; le reste des deux pages est
+écrit pour valoir avant comme après.
